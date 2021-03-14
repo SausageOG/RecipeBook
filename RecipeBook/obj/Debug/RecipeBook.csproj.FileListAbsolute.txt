@@ -1,0 +1,15 @@
+C:\Users\User\Desktop\CODE\C#\WPF\InProcess\RecipeBook\RecipeBook\bin\Debug\RecipeBook.exe.config
+C:\Users\User\Desktop\CODE\C#\WPF\InProcess\RecipeBook\RecipeBook\bin\Debug\RecipeBook.exe
+C:\Users\User\Desktop\CODE\C#\WPF\InProcess\RecipeBook\RecipeBook\bin\Debug\RecipeBook.pdb
+C:\Users\User\Desktop\CODE\C#\WPF\InProcess\RecipeBook\RecipeBook\obj\Debug\RecipeBook.csprojAssemblyReference.cache
+C:\Users\User\Desktop\CODE\C#\WPF\InProcess\RecipeBook\RecipeBook\obj\Debug\MainWindow.g.cs
+C:\Users\User\Desktop\CODE\C#\WPF\InProcess\RecipeBook\RecipeBook\obj\Debug\App.g.cs
+C:\Users\User\Desktop\CODE\C#\WPF\InProcess\RecipeBook\RecipeBook\obj\Debug\RecipeBook_MarkupCompile.cache
+C:\Users\User\Desktop\CODE\C#\WPF\InProcess\RecipeBook\RecipeBook\obj\Debug\RecipeBook_MarkupCompile.lref
+C:\Users\User\Desktop\CODE\C#\WPF\InProcess\RecipeBook\RecipeBook\obj\Debug\MainWindow.baml
+C:\Users\User\Desktop\CODE\C#\WPF\InProcess\RecipeBook\RecipeBook\obj\Debug\RecipeBook.g.resources
+C:\Users\User\Desktop\CODE\C#\WPF\InProcess\RecipeBook\RecipeBook\obj\Debug\RecipeBook.Properties.Resources.resources
+C:\Users\User\Desktop\CODE\C#\WPF\InProcess\RecipeBook\RecipeBook\obj\Debug\RecipeBook.csproj.GenerateResource.cache
+C:\Users\User\Desktop\CODE\C#\WPF\InProcess\RecipeBook\RecipeBook\obj\Debug\RecipeBook.csproj.CoreCompileInputs.cache
+C:\Users\User\Desktop\CODE\C#\WPF\InProcess\RecipeBook\RecipeBook\obj\Debug\RecipeBook.exe
+C:\Users\User\Desktop\CODE\C#\WPF\InProcess\RecipeBook\RecipeBook\obj\Debug\RecipeBook.pdb
