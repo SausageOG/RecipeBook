@@ -1,7 +1,6 @@
 C:\Users\User\Desktop\CODE\C#\WPF\InProcess\RecipeBook\RecipeBook\bin\Debug\RecipeBook.exe.config
 C:\Users\User\Desktop\CODE\C#\WPF\InProcess\RecipeBook\RecipeBook\bin\Debug\RecipeBook.exe
 C:\Users\User\Desktop\CODE\C#\WPF\InProcess\RecipeBook\RecipeBook\bin\Debug\RecipeBook.pdb
-C:\Users\User\Desktop\CODE\C#\WPF\InProcess\RecipeBook\RecipeBook\obj\Debug\RecipeBook.csprojAssemblyReference.cache
 C:\Users\User\Desktop\CODE\C#\WPF\InProcess\RecipeBook\RecipeBook\obj\Debug\MainWindow.g.cs
 C:\Users\User\Desktop\CODE\C#\WPF\InProcess\RecipeBook\RecipeBook\obj\Debug\App.g.cs
 C:\Users\User\Desktop\CODE\C#\WPF\InProcess\RecipeBook\RecipeBook\obj\Debug\RecipeBook_MarkupCompile.cache
@@ -13,3 +12,17 @@ C:\Users\User\Desktop\CODE\C#\WPF\InProcess\RecipeBook\RecipeBook\obj\Debug\Reci
 C:\Users\User\Desktop\CODE\C#\WPF\InProcess\RecipeBook\RecipeBook\obj\Debug\RecipeBook.csproj.CoreCompileInputs.cache
 C:\Users\User\Desktop\CODE\C#\WPF\InProcess\RecipeBook\RecipeBook\obj\Debug\RecipeBook.exe
 C:\Users\User\Desktop\CODE\C#\WPF\InProcess\RecipeBook\RecipeBook\obj\Debug\RecipeBook.pdb
+C:\Users\User\Desktop\CODE\C#\WPF\InProcess\RecipeBook\RecipeBook\bin\Debug\EntityFramework.dll
+C:\Users\User\Desktop\CODE\C#\WPF\InProcess\RecipeBook\RecipeBook\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\User\Desktop\CODE\C#\WPF\InProcess\RecipeBook\RecipeBook\bin\Debug\Prism.dll
+C:\Users\User\Desktop\CODE\C#\WPF\InProcess\RecipeBook\RecipeBook\bin\Debug\System.Data.SQLite.dll
+C:\Users\User\Desktop\CODE\C#\WPF\InProcess\RecipeBook\RecipeBook\bin\Debug\System.Data.SQLite.EF6.dll
+C:\Users\User\Desktop\CODE\C#\WPF\InProcess\RecipeBook\RecipeBook\bin\Debug\System.Data.SQLite.Linq.dll
+C:\Users\User\Desktop\CODE\C#\WPF\InProcess\RecipeBook\RecipeBook\bin\Debug\EntityFramework.xml
+C:\Users\User\Desktop\CODE\C#\WPF\InProcess\RecipeBook\RecipeBook\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\User\Desktop\CODE\C#\WPF\InProcess\RecipeBook\RecipeBook\bin\Debug\Prism.pdb
+C:\Users\User\Desktop\CODE\C#\WPF\InProcess\RecipeBook\RecipeBook\bin\Debug\Prism.xml
+C:\Users\User\Desktop\CODE\C#\WPF\InProcess\RecipeBook\RecipeBook\bin\Debug\System.Data.SQLite.xml
+C:\Users\User\Desktop\CODE\C#\WPF\InProcess\RecipeBook\RecipeBook\obj\Debug\GeneratedInternalTypeHelper.g.cs
+C:\Users\User\Desktop\CODE\C#\WPF\InProcess\RecipeBook\RecipeBook\obj\Debug\RecipeBook.csproj.CopyComplete
+C:\Users\User\Desktop\CODE\C#\WPF\InProcess\RecipeBook\RecipeBook\bin\Debug\RecipeDB.db
