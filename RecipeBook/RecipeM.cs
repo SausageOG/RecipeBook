@@ -25,5 +25,9 @@ namespace RecipeBook
             db.Recipes.Remove(recipe);
             db.SaveChanges();
         }
+        public void EditRecipe(Recipe recipe)
+        {
+            
+        }
     }
 }

@@ -10,21 +10,27 @@
         <local:RecipeVM/>
     </Window.DataContext>
     <DockPanel LastChildFill="False">
+        
+        <!--Left side zone-->
         <StackPanel DockPanel.Dock="Left">
             <StackPanel>
                 <Label Content="Recipe Title" FontSize="20" Margin="40 , 0 , 0,0"/>
-                <TextBox Text="{Binding Title}" Width="200" Height="20" VerticalContentAlignment="Center" HorizontalAlignment="Left" Margin="5" />
+                <TextBox Text="{Binding Title , Mode=TwoWay , UpdateSourceTrigger=PropertyChanged}" Width="200" Height="20" VerticalContentAlignment="Center" HorizontalAlignment="Left" Margin="5" />
             </StackPanel>
             <StackPanel>
                 <Label Content="Recipe Description" FontSize="20" Margin="20 , 0 , 0,0"/>
-                <TextBox Text="{Binding Description}" Width="200" Height="200" HorizontalAlignment="Left" Margin="5" TextWrapping="Wrap" AcceptsReturn="True"/>
+                <TextBox Text="{Binding Description , Mode=TwoWay ,UpdateSourceTrigger=PropertyChanged}" Width="200" Height="200" HorizontalAlignment="Left" Margin="5" TextWrapping="Wrap" AcceptsReturn="True"/>
             </StackPanel>
         </StackPanel>
+        
+        <!--Midle buttons-->
         <StackPanel>
             <Button Command="{Binding AddCommand}" Content="Add" FontSize="18"  Width="150" Height="25" HorizontalAlignment="Left" Margin="5 , 60 , 0 , 5"/>
             <Button Command="{Binding RemoveCommand}" CommandParameter="{Binding ElementName=ListOfRecipes , Path=SelectedItem}" Content="Remove" FontSize="18"  Width="150" Height="25" HorizontalAlignment="Left" Margin="5"/>
-            <Button Content="Edit" FontSize="18"  Width="150" Height="25" HorizontalAlignment="Left" Margin="5"/>
+            <Button Command="{Binding EditCommand}" CommandParameter="{Binding ElementName=ListOfRecipes , Path=SelectedItem}" Content="Edit" FontSize="18"  Width="150" Height="25" HorizontalAlignment="Left" Margin="5"/>
         </StackPanel>
+        
+        <!--Right List of recipes zone-->
         <StackPanel DockPanel.Dock="Right">
             <Label Content="List Of Recipes" FontSize="20" Margin="35 , 0 , 0,20"/>
             <ListBox x:Name="ListOfRecipes" ItemsSource="{Binding Recipes}" Width="200" Height="200" Margin="5">
@@ -35,5 +41,6 @@
                 </ListBox.ItemTemplate>
             </ListBox>
         </StackPanel>
+        
     </DockPanel>
 </Window>

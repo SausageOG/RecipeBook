@@ -26,3 +26,4 @@ C:\Users\User\Desktop\CODE\C#\WPF\InProcess\RecipeBook\RecipeBook\bin\Debug\Syst
 C:\Users\User\Desktop\CODE\C#\WPF\InProcess\RecipeBook\RecipeBook\obj\Debug\GeneratedInternalTypeHelper.g.cs
 C:\Users\User\Desktop\CODE\C#\WPF\InProcess\RecipeBook\RecipeBook\obj\Debug\RecipeBook.csproj.CopyComplete
 C:\Users\User\Desktop\CODE\C#\WPF\InProcess\RecipeBook\RecipeBook\bin\Debug\RecipeDB.db
+C:\Users\User\Desktop\CODE\C#\WPF\InProcess\RecipeBook\RecipeBook\obj\Debug\RecipeBook.csprojAssemblyReference.cache
