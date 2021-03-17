@@ -1,6 +1,7 @@
 ﻿using Prism.Commands;
 using System.Collections.Generic;
 using System.ComponentModel;
+using System.Windows;
 
 namespace RecipeBook
 {
@@ -9,6 +10,8 @@ namespace RecipeBook
         RecipeM recipeM;
         public IEnumerable<Recipe> Recipes => recipeM.Recipes;
 
+
+        public bool isChecked { get; set; }
 
         private string title;
         public string Title
@@ -37,6 +40,7 @@ namespace RecipeBook
         public DelegateCommand<Recipe> EditCommand { get; private set; }
 
 
+
         public RecipeVM()
         {
             recipeM = new RecipeM();
@@ -44,6 +48,7 @@ namespace RecipeBook
             AddCommand = new DelegateCommand(Add);
             RemoveCommand = new DelegateCommand<Recipe>(Remove);
             EditCommand = new DelegateCommand<Recipe>(Edit);
+           
         }
 
 
@@ -68,16 +73,26 @@ namespace RecipeBook
         {
             if (recipe != null)
             {
-                if(Title == "" && Description == "")
+                if (Title == "" && Description == "" || Title == null && Description == null)
                 {
                     Title = recipe.Title;
                     Description = recipe.Description;
                 }
+                else
+                {
+                    recipeM.DeleteRecipe(recipe);
 
-                //ClearTextBoxes();
+                    Recipe newRecipe = new Recipe();
+                    newRecipe.Title = Title;
+                    newRecipe.Description = Description;
+
+                    recipeM.AddRecipe(newRecipe);
+
+                    ClearTextBoxes();
+                }
+
             }
         }
-
 
         public event PropertyChangedEventHandler PropertyChanged;
         private void OnPropertyChanged(string propertyName)

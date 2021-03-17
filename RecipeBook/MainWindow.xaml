@@ -5,12 +5,12 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:RecipeBook"
         mc:Ignorable="d"
-        Title="Recipe Book" Height="360.089" Width="605.406" ResizeMode="NoResize">
+        Title="Recipe Book" Height="360.089" Width="586.406" ResizeMode="NoResize">
     <Window.DataContext>
         <local:RecipeVM/>
     </Window.DataContext>
     <DockPanel LastChildFill="False">
-        
+
         <!--Left side zone-->
         <StackPanel DockPanel.Dock="Left">
             <StackPanel>
@@ -22,16 +22,17 @@
                 <TextBox Text="{Binding Description , Mode=TwoWay ,UpdateSourceTrigger=PropertyChanged}" Width="200" Height="200" HorizontalAlignment="Left" Margin="5" TextWrapping="Wrap" AcceptsReturn="True"/>
             </StackPanel>
         </StackPanel>
-        
+
         <!--Midle buttons-->
         <StackPanel>
             <Button Command="{Binding AddCommand}" Content="Add" FontSize="18"  Width="150" Height="25" HorizontalAlignment="Left" Margin="5 , 60 , 0 , 5"/>
             <Button Command="{Binding RemoveCommand}" CommandParameter="{Binding ElementName=ListOfRecipes , Path=SelectedItem}" Content="Remove" FontSize="18"  Width="150" Height="25" HorizontalAlignment="Left" Margin="5"/>
             <Button Command="{Binding EditCommand}" CommandParameter="{Binding ElementName=ListOfRecipes , Path=SelectedItem}" Content="Edit" FontSize="18"  Width="150" Height="25" HorizontalAlignment="Left" Margin="5"/>
+            <Label Content="*Edit button is also show recipe" FontSize="10" HorizontalContentAlignment="Center"/>
         </StackPanel>
-        
+
         <!--Right List of recipes zone-->
-        <StackPanel DockPanel.Dock="Right">
+        <StackPanel DockPanel.Dock="Right" RenderTransformOrigin="0.5,0.5">
             <Label Content="List Of Recipes" FontSize="20" Margin="35 , 0 , 0,20"/>
             <ListBox x:Name="ListOfRecipes" ItemsSource="{Binding Recipes}" Width="200" Height="200" Margin="5">
                 <ListBox.ItemTemplate>
@@ -41,6 +42,5 @@
                 </ListBox.ItemTemplate>
             </ListBox>
         </StackPanel>
-        
     </DockPanel>
 </Window>
